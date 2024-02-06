@@ -47,7 +47,6 @@ body {
 /* 로고 */
 .header {
   display: flex;
-
   position: relative;
   width: 100%;
   height: 150px;
@@ -63,12 +62,12 @@ body {
   width: 150px;
   height: 150px;
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 50px;
 }
 #logo {
   position: absolute;
-  top: 60px;
+  top: 50px;
   left: 250px;
   font-size: 40px;
 }
@@ -119,29 +118,37 @@ body {
 .submenu {
   display: none;
   position: absolute;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+  padding: 5px;
 }
-.submenu li a {
+.submenu > li{
+  float: left;
+}
+.submenu > li > a {
   position: relative;
   padding: 0px 10px;
   width: 100%;
   font-size: 20px;
   color: #000;
+  
 }
 .submenu li span::before {
   content: "";
   width: 2px;
   height: 15px;
   position: absolute;
-  top: 10px;
+  top: 15px;
   background-color: #FF4092;
+
 }
 .submenu li a:hover{
   color: #FF4092;
   transition: all 0.5s;
-  
+
+}
+/* 메인스와이퍼 */
+img{
+  width: 100%;
+  height: 400px;
 }
 
 
@@ -149,19 +156,18 @@ body {
 /* 푸터 */
 footer {
   width: 100%;
-  background-color: #d9d9d9;
-  border-top: 1px solid #b0afaf;
+  height: 200px;
   margin: 0 auto;
+  background-color: #D9D9D9;
 }
 footer .inner {
-  width: 80%;
-  background-color: blueviolet;
-  margin: auto;
+  width: 100%;
+  background-color: #D9D9D9;
 }
 .footer-top {
   display: flex;
   justify-content: space-around;
-  background-color: aqua;
+
 }
 
 .footer-menu {
@@ -169,61 +175,46 @@ footer .inner {
 }
 .footer-logo {
   width: 200px;
+  height: 200px;
   height: auto;
   background: url("./images/로고이미지.png") no-repeat center;
-  padding: 10px 10px;
+  padding: 30px 10px;
 }
+
 .menu1,
 .menu2 {
+  padding-top: 30px;
   height: 20px;
   margin: 40px;
   color: #333;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 700;
-}
+  line-height: 30px;
 
-.menu1 li {
-  position: relative;
-  margin-right: 10px;
 }
-
-footer .menu2 li {
-  position: relative;
+footer .menu2 li:nth-child(2){
+  padding-left: 120px;
+  line-height: 30px;
 }
-
-footer .menu3 li {
+footer .menu3 li a{
+  font-size: 15px;
   text-align: center;
 }
-footer .menu3 li::before {
-  content: "";
-  width: 1px;
-  height: 12px;
-  background-color: #767676;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  right: -7px;
-}
-footer .menu2 .menu3 li:first-child::before {
-  display: none;
-}
-footer .menu1 .menu2 .menu3 li:last-child::before {
-  display: none;
-}
+
 footer a {
   color: #333;
   font-size: 12px;
   display: block;
   font-weight: 700;
-  display: block;
   margin-bottom: 5px;
 }
 footer address {
+  width: 100%;
+  height: 40px;
+  line-height: 3;
   font-size: 12px;
   text-align: center;
-  margin-top: 12px;
-  margin-top: 20px;
+  margin-top: 10px;
   color: #fff;
   background-color: #000;
 }
