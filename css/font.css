@@ -1,0 +1,32 @@
+/* 하늘보리체 */
+@font-face {
+  font-family: "SKYBORI";
+  /* font-weight: 300; */
+  src: url("../css/font/SKYBORI.otf") format("opentype");
+}
+/* 프리텐다드체 */
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 300;
+  src: url("Pretendard-Regular.otf") format("opentype");
+}
+  @font-face {
+    font-family: "Pretendard";
+    font-weight: 400;
+    src: url("Pretendard-Regular.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "Pretendard";
+    font-weight: 500;
+    src: url("Pretendard-Medium.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "Pretendard";
+    font-weight: 600;
+    src: url("Pretendard-SemiBold.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "Pretendard";
+    font-weight: 700;
+    src: url("Pretendard-Bold.otf") format("opentype");
+  }
