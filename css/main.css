@@ -157,37 +157,15 @@ body {
 }
 
 /* 메인스와이퍼 */
-.title1 {
-  width: 100%;
-  height: 400px;
-  background: url("../images/banner/banner1.jpg") no-repeat;
-  background-position: contain;
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
-}
-.title2 {
+.title {
   width: 100%;
   height: 500px;
-  background: url("../images/banner/banner2.png") no-repeat;
-  background-position: center;
-  background-size: contain;
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
+  overflow: hidden;
 }
-
-.title3 {
+.title img {
   width: 100%;
-  height: 500px;
-  background: url("../images/banner/banner3.png") no-repeat;
-  background-position: center;
-  background-size: contain;
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
-  background-size: 100% 100%;
-} */
+  height: 100%;
+}
 
 /* 서브스와이퍼 */
 .sub {
@@ -196,32 +174,78 @@ body {
 }
 .sub .toto1 {
   width: 300px;
-  height: 300px;
+  height: 400px;
   background: url("../images/best/best01.png") no-repeat center;
   background-size: cover;
 }
+
 .sub .toto2 {
   width: 300px;
-  height: 300px;
+  height: 400px;
   background: url("../images/best/best02.png") no-repeat center;
   background-size: cover;
 }
 .sub .toto3 {
   width: 300px;
-  height: 300px;
+  height: 400px;
   background: url("../images/best/best03.png") no-repeat center;
   background-size: cover;
 }
 .sub .toto4 {
   width: 300px;
-  height: 300px;
+  height: 400px;
   background: url("../images/best/best04.png") no-repeat center;
   background-size: cover;
 }
+.toto1 button {
+  color: #000;
+  cursor: pointer;
+  border: 2px solid #ef97d0;
+  background: #ef97d0;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 15px;
+}
+.box h3{
+  margin-top:280px;
+  margin-bottom:100px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.toto2 button {
+  color: #000;
+  cursor: pointer;
+  border: 2px solid #fbc671;
+  background: #fbc671;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 15px;
+}
+.toto3 button {
+  color: #000;
+  cursor: pointer;
+  border: 2px solid #f4ec62;
+  background:#f4ec62;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.toto4 button {
+  color: #000;
+  cursor: pointer;
+  border: 2px solid #9def97;
+  background: #9def97;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 15px;
+
+}
+
 .box {
   position: relative;
   width: 300px; /* 너비 설정 */
-  height: 300px; /* 높이 설정 */
+  height: 400px; /* 높이 설정 */
   background: linear-gradient(
     to right,
     rgba(255, 255, 255, 0.5),
@@ -229,7 +253,6 @@ body {
   );
   border: none; /* 테두리 스타일 설정 */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 자연스러운 그림자 효과 */
-
 }
 
 /* 검색바 */
@@ -350,7 +373,7 @@ footer address {
   background-color: #000;
 }
 /* 안내창 */
-.modal-wrap {
+/* .modal-wrap {
   position: fixed;
   top: 0;
   left: 0;
@@ -392,7 +415,7 @@ footer address {
   bottom: -20px;
   left: 0;
   width: 100%;
-}
+} */
 
 .modal-main .img {
   width: 100%;
