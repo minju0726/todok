@@ -158,6 +158,7 @@ body {
 
 /* 메인스와이퍼 */
 .title {
+
   width: 100%;
   height: 500px;
   overflow: hidden;
@@ -165,12 +166,18 @@ body {
 .title img {
   width: 100%;
   height: 100%;
+  background: url("../images/banner/banner1.jpg") no-repeat center;
+  background-position: 70%;
+  background-size: cover;
+  object-fit: cover;
 }
 
 /* 서브스와이퍼 */
 .sub {
+  width: 100%;
+}
+.sub .toto {
   width: 80%;
-  margin: 0 auto;
 }
 .sub .toto1 {
   width: 300px;
@@ -189,7 +196,11 @@ body {
   width: 300px;
   height: 400px;
   background: url("../images/best/best03.png") no-repeat center;
+  height: 300px;
+  background: url("../images/best/best03.png") no-repeat;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .sub .toto4 {
   width: 300px;
@@ -308,6 +319,37 @@ input {
   color: #333;
   padding: 10px;
 }
+/* 카운트 다운 */
+.freebox{
+  margin: 30px;
+position: relative;
+width: 100%;
+height: 100%;
+padding: 50px 0;
+}
+.freebox .free{
+  background-color: #fce0ec;
+  border-radius: 30px;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.freebox .free h1{
+  padding: 20px 0;
+  text-align: center;
+  font-size: 50px;
+  line-height: 0.5;
+}
+#countdown{
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
 
 /* 푸터 */
 footer {
