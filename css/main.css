@@ -50,10 +50,13 @@ body {
   position: relative;
   width: 100%;
   height: 150px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(101, 215, 243);
 }
 .header-logo {
-  width: 30%;
+  display: flex;
+  align-items: center;
+  width: 20%;
+  background-color: #FF4092;
 }
 .logo {
   display: block;
@@ -61,23 +64,35 @@ body {
   background-size: cover;
   width: 150px;
   height: 150px;
-  position: absolute;
-  top: 0px;
-  left: 50px;
+  
 }
 #logo {
-  position: absolute;
-  top: 50px;
-  left: 250px;
-  font-size: 40px;
+font-size: 40px;
 }
+   /* 모바일 메뉴 */
+   .mb{
+    width: 15%;
+    display: flex;
+  }
+  .mb ul {
+    display: flex;
+    align-items: center;
+    
+  }
+  .mb ul li a{
+  padding: 0 20px;
+  font-size: 20px;
+   color: #000;
+    }
 /* 메인메뉴 */
 .menu {
-  width: 60%;
+  width: 80%;
   height: 100%;
   font-size: 30px;
   color: #000;
+  background-color: #fff;
 }
+
 .mainmenu {
   display: flex;
   justify-content: space-around;
@@ -145,10 +160,63 @@ body {
   transition: all 0.5s;
 
 }
+
 /* 메인스와이퍼 */
-img{
+
+/* 검색바 */
+.serch{
   width: 100%;
-  height: 400px;
+  height: 300px;
+  display: block;
+}
+.inner{
+  width: 50%;
+  height: 300px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+input{
+  width: 900px;
+  height: 50px; 
+  border: none;
+  background-color: #fff;
+  border-radius: 30px;
+  outline: none;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.inner a{
+font-size: 25px;
+float: right;
+line-height: 2;
+color: #FF4092;
+transition: transform 0.3s ease-in-out;
+}
+.inner a:hover{
+  transform: translateY(5px);
+}
+.keyword{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.keyword li button{
+  border-radius: 30px;
+  background-color: #FCE0EC;
+  border: none;
+  margin: 20px;
+  float: left;
+  color: #333;
+  font-weight: 800;
+
+  
+}
+.keyword li button a{
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+  padding: 10px;
 }
 
 
@@ -218,3 +286,4 @@ footer address {
   color: #fff;
   background-color: #000;
 }
+/* 모달창 */
