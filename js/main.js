@@ -7,6 +7,9 @@ $(".mainmenu > li").mouseleave(function () {
     $(this).find(".submenu").stop().slideUp();
 });
 
+//모달창 
+
+
     // 메인스와이퍼
     var swiper = new Swiper(".todok", {
       spaceBetween: 30,
