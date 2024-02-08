@@ -7,8 +7,17 @@ $(".mainmenu > li").mouseleave(function () {
     $(this).find(".submenu").stop().slideUp();
 });
 
-//모달창 
-
+//안내창 
+const body = document.querySelector("body");
+const modal = document.querySelector(".modal-wrap");
+const modalClose = document.querySelector(".modal-close");
+function controlScroll(isOpen) {
+  if (isOpen) {
+    body.style.overflow = "hidden";
+  } else {
+    body.style.overflow = "auto";
+  }
+}
 
     // 메인스와이퍼
     var swiper = new Swiper(".todok", {
