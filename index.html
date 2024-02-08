@@ -71,6 +71,7 @@
     />
     <!-- css -->
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/resonponsive.css">
     <!-- swiper css -->
     <link
       rel="stylesheet"
@@ -89,6 +90,7 @@
     <title>10대 20대를 겨냥한 자극없는 성분의 브랜드 토닥토닥</title>
   </head>
   <body>
+    <!-- 모달창 -->
     <!-- 전체 레이아웃 -->
     <div class="warp">
       <!-- 상단 -->
@@ -114,17 +116,15 @@
       <div class="header">
         <!-- 상단로고 -->
         <div class="header-logo">
-          <div id="logo">토닥토닥</div>
           <a href="#" class="logo"></a>
+          <div id="logo">토닥토닥</div>        
         </div>
-        <!-- 모바일 메뉴 -->
-        <div class="mobaile"></div>
-        <!-- 메뉴 -->
+       <!-- 메뉴 -->
         <div class="menu">
           <ul class="mainmenu">
             <li>
               <a href="#"><span>브랜드</span></a>
-              <ul class="submenu ">
+              <ul class="submenu">
                 <li><a href="#">소개</a></li>
                 <!-- <li ><a href="#">소개</a></li>
                 <li ><a href="#">소개</a></li>
@@ -156,23 +156,30 @@
                 <li ><a href="#">배송안내</a></li>
               </ul>
             </li>
-          </ul>
-
+          </ul>        
         </div>
-      </div>
-            <!-- main -->
+       <!-- 모바일메뉴 -->
+        <div class="mb">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+          </ul>
+           </div>
+     </div>
+            <!-- 메인-->
             <div class="main">
               <div class="slider">
                 <!-- Swiper -->
                 <div class="swiper todok">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <div class="title">
+                      <div class="title1">
                         <img src="images/freetime/freetime01.png" alt="메인이미지2" />
                       </div>
                     </div>
                     <div class="swiper-slide">
-                      <div class="title">
+                      <div class="title2">
                         <img src="images/freetime/freetime01.png" alt="메인이미지2" />
                       </div>
                     </div>
@@ -187,11 +194,20 @@
             </div>
     <!-- 검색바 -->
     <div class="serch">
-      <input type="text">
-      
+      <div class="inner">
+        <input type="text" id="fullname" name="fullname" placeholder="10대 20대를 겨냥한 자극없는 성분의 브랜드 토닥토닥">
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <ul class="keyword">
+          <li><button><a href="#">인기상품</a></button></li>
+          <li><button><a href="#">마스카라</a></button></li>
+          <li><button><a href="#">할인상품</a></button></li>
+        </ul>
+      </div>
     </div>
+    <!-- 서브스와이퍼 -->
+    <!-- subSwiper -->
       <!-- 푸터 -->
-      <footer>
+      <!-- <footer>
         <div class="inner">
           <div class="footer-top">
             <img src="images/totologo/to.png" alt="로고" class="footer-logo" />
@@ -225,7 +241,8 @@
           </div>
           <address>&copy;copyright todoktodok. ALL Rights Reserved</address>
         </div>
-      </footer>
+      </footer> -->
+    </div>
     </div>
   </body>
 </html>
