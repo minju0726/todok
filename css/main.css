@@ -58,7 +58,7 @@ body {
   display: flex;
   align-items: center;
   width: 20%;
-  background-color: #ff4092;
+  background-color: #FF4092;
 }
 .logo {
   display: block;
@@ -66,24 +66,26 @@ body {
   background-size: cover;
   width: 150px;
   height: 150px;
+  
 }
 #logo {
-  font-size: 40px;
+font-size: 40px;
 }
-/* 모바일 메뉴 */
-.mb {
-  width: 15%;
-  display: flex;
-}
-.mb ul {
-  display: flex;
-  align-items: center;
-}
-.mb ul li a {
+   /* 모바일 메뉴 */
+   .mb{
+    width: 15%;
+    display: flex;
+  }
+  .mb ul {
+    display: flex;
+    align-items: center;
+    
+  }
+  .mb ul li a{
   padding: 0 20px;
   font-size: 20px;
-  color: #000;
-}
+   color: #000;
+    }
 /* 메인메뉴 */
 .menu {
   width: 80%;
@@ -159,7 +161,7 @@ body {
 }
 
 /* 메인스와이퍼 */
-/* 
+
 .swiper-slide {
   width: 100%;
   height: 500px;
@@ -180,65 +182,23 @@ body {
   background: url("../images/banner/banner3.png") no-repeat;
   background-position: center;
   background-size: 100% 100%;
-} */
-
-/* 서브스와이퍼 */
-.sub {
-  width: 80%;
-  margin: 0 auto;
-}
-.sub .toto1 {
-  width: 300px;
-  height: 300px;
-  background: url("../images/best/best01.png") no-repeat center;
-  background-size: cover;
-}
-.sub .toto2 {
-  width: 300px;
-  height: 300px;
-  background: url("../images/best/best02.png") no-repeat center;
-  background-size: cover;
-}
-.sub .toto3 {
-  width: 300px;
-  height: 300px;
-  background: url("../images/best/best03.png") no-repeat center;
-  background-size: cover;
-}
-.sub .toto4 {
-  width: 300px;
-  height: 300px;
-  background: url("../images/best/best04.png") no-repeat center;
-  background-size: cover;
-}
-.box {
-  position: relative;
-  width: 300px; /* 너비 설정 */
-  height: 300px; /* 높이 설정 */
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0.5),
-    rgba(2, 2, 2, 0.5)
-  );
-  border: none; /* 테두리 스타일 설정 */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 자연스러운 그림자 효과 */
 }
 
 /* 검색바 */
-.serch {
+.serch{
   width: 100%;
   height: 300px;
   display: block;
 }
-.inner {
+.inner{
   width: 50%;
   height: 300px;
   margin: 0 auto;
   padding-top: 50px;
 }
-input {
+input{
   width: 900px;
-  height: 50px;
+  height: 50px; 
   border: none;
   background-color: #fff;
   border-radius: 30px;
@@ -247,36 +207,39 @@ input {
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.inner a {
-  font-size: 25px;
-  float: right;
-  line-height: 2;
-  color: #ff4092;
-  transition: transform 0.3s ease-in-out;
+.inner a{
+font-size: 25px;
+float: right;
+line-height: 2;
+color: #FF4092;
+transition: transform 0.3s ease-in-out;
 }
-.inner a:hover {
+.inner a:hover{
   transform: translateY(5px);
 }
-.keyword {
+.keyword{
   padding-top: 20px;
   display: flex;
   justify-content: center;
 }
-.keyword li button {
+.keyword li button{
   border-radius: 30px;
-  background-color: #fce0ec;
+  background-color: #FCE0EC;
   border: none;
   margin: 20px;
   float: left;
   color: #333;
   font-weight: 800;
+
+  
 }
-.keyword li button a {
+.keyword li button a{
   font-size: 16px;
   text-align: center;
   color: #333;
   padding: 10px;
 }
+
 
 /* 푸터 */
 footer {
