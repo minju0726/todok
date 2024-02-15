@@ -1,16 +1,72 @@
 @charset "utf-8";
 /* 가로가 1280px */
 @media screen and (max-width: 1280px) {
-    .mb{
-    display: flex;
-    align-items: center;   
-}
-.mb ul li{;
-}
-
-.menu{
+  .mb {
+    float: right;
+  }
+  #logo {
     display: none;
-}
-@media screen and (max-width: 375px) {
+  }
+  .mb ul li {
+  }
+  .header {
+    display: none;
+  }
 
+  .menu {
+    display: none;
+  }
+  .distodok {
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .discount {
+    width: 47% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .serch-bar input {
+    width: 40%;
+  }
+  .keyword li button {
+    padding: 10px 0px;
+  }
+  .toto {
+    width: 30%;
+  }
+  .distodok {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .discount {
+    width: 60% !important;
+  }
+  .review {
+    flex-direction: column;
+    align-items: center;
+  }
+  .review1 h2 {
+    font-size: 12px;
+  }
+  .review1 {
+    width: 70% !important;
+  }
+  .review1 p {
+    font-size: 8px;
+  }
+  .footer-menu ul li {
+    display: none;
+  }
+  .footer-top {
+    position: relative;
+  }
+  .footer-top img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+  }
 }
