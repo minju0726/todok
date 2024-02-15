@@ -7,17 +7,32 @@ $(document).ready(function () {
     $(this).find(".submenu").stop().slideUp();
   });
 
-  //안내창
-  // const body = document.querySelector("body");
-  // const modal = document.querySelector(".modal-wrap");
-  // const modalClose = document.querySelector(".modal-close");
-  // function controlScroll(isOpen) {
-  //   if (isOpen) {
-  //     body.style.overflow = "hidden";
-  //   } else {
-  //     body.style.overflow = "auto";
-  //   }
-  // }
+  // 안내창
+
+  // 안내창 스크립트
+    // 안내창 스크립트
+    const body = document.querySelector("body");
+    const modal = document.querySelector(".modal-wrap");
+    const modalClose = document.querySelector(".modal-closeBtn");
+    // isOpen 값에 따라 스크롤을 제어하는 함수
+    function controlScroll(isOpen) {
+      if (isOpen) {
+        body.style.overflow = "hidden";
+      } else {
+        body.style.overflow = "auto";
+      }
+    }
+
+  // 초기 모달 상태 설정
+  const isOpen = true;
+  controlScroll(isOpen);
+
+  modalClose.addEventListener("click", function () {
+    modal.style.display = "none";
+
+    // 모달이 닫힐 때는 스크롤을 다시 활성화
+    controlScroll(false);
+  });
 
   // 메인스와이퍼
   var swiper = new Swiper(".todok", {
