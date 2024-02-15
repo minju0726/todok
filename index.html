@@ -91,20 +91,37 @@
   </head>
   <body>
     <!-- 안내창 -->
+
     <div class="modal-wrap">
       <div class="modal-main1">
         <span class="modal-logo"></span>
-        <p class="modal-nonotic">
-           <strong>토닥토닥 온라인 몰 EVENT</strong><br />
-          <P>카카오 네이버 포인트로 3만원 이상 구매시</P><br />
-          <strong>5,000원 할인 및 적립</strong><br />
-        </p>
-        <div class="modal-close" >
-          확인했습니다.
-          <i>( Click 하여 닫기 )</i>
+        <div class="modal-nonotic">
+          <h2>토닥토닥 온라인 몰 EVENT</h2>
+
+          <p>카카오 네이버 포인트로 3만원 이상 구매시</p>
+
+          <h3>5,000원 할인 및 적립</h3>
+        </div>
+        <div class="modaltool">
+          <div class="kakaotool">
+            <div class="kakao">
+              <p><u>5,000p</u></p>
+
+              <p>즉시할인</p>
+            </div>
+          </div>
+          <div class="navertool">
+            <div class="naver">
+              <p><u>5,000p</u></p>
+              <p>네이버 포인트 적립</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="modal-closeBtn">닫기</button>
       </div>
     </div>
-  </div>
+
     <!-- 전체 레이아웃 -->
     <div class="warp">
       <!-- 상단 -->
@@ -180,140 +197,176 @@
               <a href="#"><i class="fa-solid fa-bars"></i></a>
             </li>
           </ul>
-           </div>
-           </div>
-            <!-- 메인-->
-            <div class="main">
-              <div class="slider">
-                <!-- Swiper -->
-                <div class="swiper todok">
-                  <div class="swiper-wrapper"> 
-                    <div class="swiper-slide">
-                      <div class="title">
-
-                        <img src="images/banner/banner1.jpg" alt="" />
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="title">
-                        <img src="images/banner/banner2.png" alt="" />
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="title">
-                        <img src="images/banner/banner3.png" alt="" />
-
-                        <img src="" alt="" />
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="title2">
-                        <img src="" alt="" />
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="title3">
-                        <img src="" alt="" />
-
-                      </div>
-                    </div>
+        </div>
+      </div>
+      <!-- 메인-->
+      <div class="main">
+        <div class="slider">
+          <!-- Swiper -->
+          <div class="swiper todok">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/banner/banner1.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/banner/banner2.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/banner/banner3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 검색바 -->
+        <div class="serch">
+          <div class="serch-bar">
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="10대 20대를 겨냥한 자극없는 성분의 브랜드 토닥토닥"
+            />
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <ul class="keyword">
+              <li>
+                <button><a href="#">인기상품</a></button>
+              </li>
+              <li>
+                <button><a href="#">마스카라</a></button>
+              </li>
+              <li>
+                <button><a href="#">할인상품</a></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- 서브스와이퍼 -->
+        <div class="sub">
+          <!-- Swiper -->
+          <div class="swiper toto">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="toto1">
+                  <div class="box">
+                    <button>1</button>
+                    <h3>토닥토닥<br />쥬시 래스팅 립</h3>
                   </div>
-        </div>
-      </div>
-      <!-- 검색바 -->
-      <div class="serch">
-        <div class="inner">
-          <input
-            type="text"
-            id="fullname"
-            name="fullname"
-            placeholder="10대 20대를 겨냥한 자극없는 성분의 브랜드 토닥토닥"
-          />
-          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-          <ul class="keyword">
-            <li>
-              <button><a href="#">인기상품</a></button>
-            </li>
-            <li>
-              <button><a href="#">마스카라</a></button>
-            </li>
-            <li>
-              <button><a href="#">할인상품</a></button>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- 서브스와이퍼 -->
-      <div class="sub">
-        <!-- Swiper -->
-        <div class="swiper toto">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="toto1">
-                <div class="box">
-                  <button>1</button>
-                  <h3>토닥토닥<br />쥬시 래스팅 립</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="toto2">
+                  <div class="box">
+                    <button>2</button>
+                    <h3>토닥토닥<br />젤리쿠션</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="toto3">
+                  <div class="box">
+                    <button>3</button>
+                    <h3>토닥토닥<br />롱롱아이래쉬<br />마스카라 2호</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="toto4">
+                  <div class="box">
+                    <button>4</button>
+                    <h3>토닥토닥<br />쿠션 N1</h3>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="toto2">
-                <div class="box">
-                  <button>2</button>
-                  <h3>토닥토닥<br />젤리쿠션</h3>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="toto3">
-                <div class="box">
-                  <button>3</button>
-                  <h3>토닥토닥<br />롱롱아이래쉬<br />마스카라 2호</h3>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="toto4">
-                <div class="box">
-                  <button>4</button>
-                  <h3>토닥토닥<br />쿠션 N1</h3>
-                </div>
-              </div>
-            </div>
+            <div class="swiper-pagination"></div>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
-      </div>
-      <!-- 할인 -->
-      <div class="freebox">
-        <div class="free">
-        <h1>할인 타임</h1>
-        <div id="countdown"></div>
-      </div>
-      </div>
-      <!-- 할인제품 -->
-      <div class="selebox">
-        <div class="boxinner">
-          <div class="boximg">
-            <img src="images/best/best01.png" alt="할인1">
-            <h2>아이치크</h2>
-            <h4>가격 230000원</h4>
-            <h1>18000원</h1>
+        <!-- 할인 -->
+        <div class="freebox">
+          <div class="free">
+            <h1>할인 타임</h1>
+            <div id="countdown"></div>
           </div>
-          <div class="boxinner2">
-            <div class="boximg">
-              <img src="images/best/best01.png" alt="할인1">
-              <h2>아이치크</h2>
-              <h4>가격 230000원</h4>
-              <h1>18000원</h1>
-            </div>
-            <div class="boxinner3">
-              <div class="boximg">
-                <img src="images/best/best01.png" alt="할인1">
+        </div>
+        <!-- 할인제품 -->
+        <div class="distodok">
+          <div class="discount">
+            <div class="discounttodok">
+              <img src="images/freetime/freetime1.png" alt="아이치크" />
+              <div class="todokbox-top">
                 <h2>아이치크</h2>
-                <h4>가격 230000원</h4>
-                <h1>18000원</h1>
+                <button>할인</button>
               </div>
+              <div class="todokbox-bt">
+                <h4>가격 23000원</h4>
+                <span>18000원</span>
+              </div>
+            </div>
+          </div>
+          <div class="discount">
+            <div class="discounttodok2">
+              <img src="images/freetime/freetime2.png" alt="토닥립" />
+              <div class="todokbox-top">
+                <h2>토닥립</h2>
+                <button>할인</button>
+              </div>
+              <div class="todokbox-bt">
+                <h4>가격 23000원</h4>
+                <span>18000원</span>
+              </div>
+            </div>
+          </div>
+          <div class="discount">
+            <div class="discounttodok3">
+              <img src="images/freetime/freetime3.png" alt="토닥베이스" />
+              <div class="todokbox-top">
+                <h2>토닥베이스</h2>
+                <button>할인</button>
+              </div>
+              <div class="todokbox-bt">
+                <h4>가격 23000원</h4>
+                <span>18000원</span>
+              </div>
+            </div>
+          </div>
+          <div class="discount">
+            <div class="discounttodok4">
+              <img src="images/freetime/freetime4.png" alt="아이브로우" />
+              <div class="todokbox-top">
+                <h2>아이브로우</h2>
+                <button>할인</button>
+              </div>
+              <div class="todokbox-bt">
+                <h4>가격 23000원</h4>
+                <span>18000원</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 사용 -->
+        <div class="freebox2">
+          <div class="free2">
+            <h2>사용 후기</h2>
+            <p>소중한 고객님들의 사용후기 입니다.</p>
+          </div>
+        </div>
+      </div>
+      <!-- 사용후기  -->
+      <div class="review">
+        <div class="review1">
+          <img src="images/riview/riwiew02.png" alt="파운데이션" />
+          <h2>듀 파운데이션[n1] 가격 20000원</h2>
+          <p>진짜말하면 입아프다는말은 이제품을 보고하는 말임</p>
+        </div>
+        <div class="review1">
+          <img src="images/riview/riwiew01.png" alt="듀틴트" />
+          <h2>듀 틴트[06 피그 듀] 가격 20000원</h2>
+          <p>끈적거리는 느낌의 틴트 적응하는데 시간이 조금 걸렸</p>
+        </div>
+        <div class="review1">
+          <img src="images/riview/riwiew03.png" alt="듀쿠션" />
+          <h2>토닥쿠션 [듀쿠션] 가격 20000원</h2>
+          <p>웬만한 쿠션 거의 다 사용해본 사람의 후기 입니다</p>
         </div>
       </div>
       <!-- 푸터 -->
