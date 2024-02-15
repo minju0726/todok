@@ -7,6 +7,9 @@ $(document).ready(function () {
     $(this).find(".submenu").stop().slideUp();
   });
 
+  
+});
+window.addEventListener("load",function(){
   // 안내창
 
   // 안내창 스크립트
@@ -54,14 +57,42 @@ $(document).ready(function () {
 
   //서브스와이퍼
   var swiper = new Swiper(".toto", {
-    slidesPerView: 4,
-    spaceBetween: 30,
-    freeMode: true,
+    slidesPerView: 1,
+    spaceBetween: 10,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 32,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 32,
+      },
+     1120: {
+        slidesPerView: 3,
+        spaceBetween: 32,
+      },
+      1280: {
+        slidesPerView: 4,
+        spaceBetween: 32,
+      },
+    },
+    
+    // centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     pagination: {
-      el: ".swiper-pagination",
+      el: ".toto .swiper-pagination",
       clickable: true,
     },
+    navigation: {
+      nextEl: ".toto .swiper-button-next",
+      prevEl: ".toto .swiper-button-prev",
+    },
   });
+
 
   // 카운트다운 시작 시간 설정 (초 단위)
   // 목표 날짜 및 시간 설정 (연, 월, 일, 시, 분, 초)
@@ -95,4 +126,4 @@ $(document).ready(function () {
 
   // 페이지 로드 시 초기 업데이트 수행
   updateCountdown();
-});
+})
