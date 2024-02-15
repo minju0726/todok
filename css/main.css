@@ -55,7 +55,6 @@ body {
   display: flex;
   align-items: center;
   width: 20%;
-
 }
 .logo {
   display: block;
@@ -417,35 +416,32 @@ input {
   color: #fd0505;
   font-weight: bold;
   margin-left: 50px;
-  font-size: 30px;
+  font-size: 20px;
 }
 /* 사용후기 */
 .freebox2 {
   text-align: center;
 }
 .free2 h2 {
-  font-size: 25px;
+  font-size: 40px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .free2 p {
-  font-size: 18px;
-  margin: 20px;
+  font-size: 30px;
+  margin: 40px;
 }
 .review {
   width: 60%;
-  display: flex;
-  gap: 20px;
+  justify-content: space-between;
   margin: 0 auto;
-  text-align: center;
+  display: flex;
 }
 .review1 {
-  width: calc(100% / 2);
-  /* height: 450px; */
+  height: 450px;
   background-color: #fce0ec;
-  margin-top: 30px;
   padding: 2%;
-  margin-bottom: 30px;
+  margin-bottom: 170px;
 }
 .review1 img {
   width: 100%;
@@ -465,6 +461,10 @@ input {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+.review1 P:hover {
+  color: red;
+  cursor: pointer;
 }
 
 /* 푸터 */
@@ -637,4 +637,9 @@ height: 500px; */
   height: 100%;
   border-radius: 50px;
   object-fit: cover;
+}
+
+.modal-closeBtn {
+  border: none;
+  background-color: #fff;
 }
