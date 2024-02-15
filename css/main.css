@@ -169,36 +169,39 @@ body {
 }
 
 /* 서브스와이퍼 */
-.sub {
+.toto {
+  width: 80%;
+ 
+}
+.swiper-wrapper{
   width: 100%;
 }
-.sub .toto {
-  width: 80%;
+.swiper-slide {
+  width: 100%;
+ 
+ margin: auto;
 }
-.sub .toto1 {
-  width: 300px;
-  height: 400px;
+
+.toto1 {
+
   background: url("../images/best/best01.png") no-repeat center;
   background-size: cover;
 }
 
 .sub .toto2 {
-  width: 300px;
-  height: 400px;
+ 
   background: url("../images/best/best02.png") no-repeat center;
   background-size: cover;
 }
 .sub .toto3 {
-  width: 300px;
-  height: 400px;
+ 
   background: url("../images/best/best03.png") no-repeat center;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .sub .toto4 {
-  width: 300px;
-  height: 400px;
+ 
   background: url("../images/best/best04.png") no-repeat center;
   background-size: cover;
 }
@@ -212,6 +215,7 @@ body {
   margin: 15px;
 }
 .box {
+  width: 100%;
   position: relative;
 }
 .box h3 {
@@ -271,8 +275,7 @@ body {
 
 .box {
   position: relative;
-  width: 300px; /* 너비 설정 */
-  height: 400px; /* 높이 설정 */
+  
   background: linear-gradient(
     to right,
     rgba(255, 255, 255, 0.5),
@@ -289,13 +292,15 @@ body {
   display: block;
 }
 .serch-bar {
-  width: 50%;
+  
   height: 300px;
   margin: 0 auto;
   padding-top: 100px;
 }
-input {
-  width: 900px;
+.serch-bar input {
+  display: block;
+  margin: auto;
+  width: 60%;
   height: 50px;
   border: none;
   background-color: #fff;
@@ -372,7 +377,7 @@ input {
   position: relative;
 
   padding: 2%;
-  padding: 15px;
+  
 }
 .discount img {
   width: 100%;
