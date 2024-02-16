@@ -54,7 +54,7 @@ body {
 .header-logo {
   display: flex;
   align-items: center;
-  width: 20%;
+  width: 30%;
 }
 .logo {
   display: block;
@@ -64,7 +64,7 @@ body {
   height: 150px;
 }
 #logo {
-  font-size: 40px;
+  font-size: 3em;
 }
 /* 모바일 메뉴 */
 .mb {
@@ -82,9 +82,9 @@ body {
 }
 /* 메인메뉴 */
 .menu {
-  width: 80%;
+  width: 100%;
   height: 100%;
-  font-size: 30px;
+  font-size: 2em;
   color: #000;
   background-color: #fff;
 }
@@ -155,17 +155,9 @@ body {
 }
 
 /* 메인스와이퍼 */
-/* .title {
+.swiper-slide img {
   width: 100%;
-  height: 400px;
-  position: relative;
-  overflow: hidden;
-} */
-.main .slider img {
-  width: 100%;
-  height: 600px;
-  background-size: 100%;
-  overflow: hidden;
+  background-size: cover;
 }
 
 /* 서브스와이퍼 */
@@ -320,10 +312,11 @@ body {
   border-radius: 30px;
   background-color: #fce0ec;
   border: none;
-  margin: 20px;
+  margin: 30px;
   float: left;
   color: #333;
   font-weight: 800;
+  padding: 10px;
 }
 .keyword li button a {
   font-size: 16px;
@@ -443,14 +436,16 @@ body {
   display: flex;
 }
 .review1 {
-  height: 450px;
+  width: calc(100% / 3);
+  height:32.14vw;
+  min-height: 354px;
   background-color: #fce0ec;
   padding: 2%;
   margin-bottom: 170px;
 }
 .review1 img {
   width: 100%;
-  height: 300px;
+  height:70%;
 }
 .review1 h2 {
   font-size: 20px;
@@ -462,7 +457,7 @@ body {
   font-size: 18px;
   color: #000;
   margin-top: 20px;
-  width: 300px;
+  max-width: 300px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
