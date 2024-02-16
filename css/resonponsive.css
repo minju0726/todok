@@ -2,7 +2,11 @@
 /* 가로가 1280px */
 
 @media screen and (max-width: 1785px) {
-  #logo {
+  .mb ul {
+    display: inline-block;
+    padding-left: 400px;
+  }
+  .menu{
     display: none;
   }
 }
@@ -11,22 +15,10 @@
     font-size: 20px;
   }
 }
-@media screen and (max-width: 320px) {
-    .distodok{
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-    .discount{
-    width: 130%;
-
-
 @media screen and (max-width: 1280px) {
-  .mb {
-    float: right;
-  }
-  #logo {
-    display: none;
+  .mb ul {
+    display: inline-block;
+    padding-left: 200px;
   }
   .mb ul li {
   }
@@ -47,6 +39,19 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .header-logo #logo {
+    display: block;
+    font-size: 1.5rem;
+  }
+  .mb ul {
+    display: inline-block;
+    padding-left: 300px;
+  }
+  .main .swiper-slide img {
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+  }
   .serch-bar input {
     width: 40%;
   }
@@ -73,6 +78,7 @@
   }
   .review1 {
     width: 70% !important;
+    margin-bottom: 30px !important;
   }
   .review1 p {
     font-size: 8px;
@@ -90,4 +96,79 @@
     width: 20%;
     transform: translate(-50%, -50%);
   }
+}
+@media screen and (max-width: 320px) {
+  .header-logo .logo {
+    display: none;
+  }
+  .header-logo #logo {
+    display: block;
+    font-size: 2rem;
+  }
+  .mb ul {
+    display: inline-block;
+    padding-left: 50px;
+  }
+  .keyword {
+    flex-wrap: wrap;
+  }
+  .keyword li {
+    padding-left: 10px;
+  }
+  .keyword li button {
+    margin: 0 !important;
+  }
+  .keyword li button a {
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 16px !important;
+  }
+  .distodok {
+    flex-direction: column;
+    width: 100% !important;
+    align-items: center;
+  }
+  .discount {
+    width: 80% !important;
+  }
+  .freebox {
+    width: 40%;
+  }
+  .freebox h1{
+    width: !important;
+  }
+  .review {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .review1 h2 {
+    font-size: 12px;
+  }
+  .review1 {
+    width: 100% !important;
+  }
+  .review1 p {
+    
+  }
+
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .footer-menu ul li {
+    display: none;
+  }
+  .footer-top img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .menu3 li a {
+    font-size: 10px;
+  }
+  
 }
