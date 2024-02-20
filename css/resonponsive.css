@@ -4,13 +4,21 @@
 @media screen and (max-width: 1785px) {
   .mb ul {
     display: inline-block;
-    padding-left: 400px;
+    padding-left: 380%;
   }
   .menu {
     display: none;
   }
 }
 @media screen and (max-width: 1141px) {
+  .mb ul {
+    display: inline-block;
+    padding-left: 330% !important;
+  }
+  .menu {
+    display: none;
+  }
+
   .bottom-menu span {
     font-size: 20px;
   }
@@ -36,7 +44,7 @@
 @media screen and (max-width: 1280px) {
   .mb ul {
     display: inline-block;
-    padding-left: 200px;
+    padding-left: 350%;
   }
   .mb ul li {
   }
@@ -63,7 +71,7 @@
   }
   .mb ul {
     display: inline-block;
-    padding-left: 300px;
+    padding-left: 280% !important;
   }
   .main .swiper-slide img {
     width: 100%;
@@ -91,16 +99,36 @@
     flex-direction: column;
     align-items: center;
   }
-  .review1 h2 {
-    font-size: 12px;
-  }
   .review1 {
     width: 70% !important;
     margin-bottom: 30px !important;
   }
-  .review1 p {
-    font-size: 8px;
+  .review1 h2 {
+    font-size: 0.9rem !important;
+    line-height: 0;
   }
+  .review p {
+    margin: none;
+    line-height: 0;
+    font-size: 1rem !important;
+    .footer-menu ul li {
+      display: none;
+    }
+    .footer-top {
+      position: relative;
+    }
+    .footer-top img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 20%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .footer-logo {
+    justify-content: center;
+  }
+
   .footer-menu ul li {
     display: none;
   }
@@ -125,7 +153,7 @@
   }
   .mb ul {
     display: inline-block;
-    padding-left: 50px;
+    padding-left: 100% !important;
   }
   .keyword {
     flex-wrap: wrap;
@@ -148,12 +176,16 @@
     align-items: center;
   }
   .discount {
+    width: 60% !important;
+  }
+  .freebox button {
     width: 80% !important;
   }
-  .freebox {
-    width: 40%;
+  .freebox button h1{
+    font-size: 30px !important;
   }
-  .freebox h1 {
+  #countdown{
+    font-size: 25px !important;
   }
   .review {
     flex-direction: column;
@@ -161,10 +193,22 @@
     margin-bottom: 30px;
   }
   .review1 h2 {
-    font-size: 12px;
+    font-size: 0.7rem !important;
+    line-height: 0;
+  }
+  .review p {
+    margin: none;
+    line-height: 0;
+    font-size: 1rem !important;
   }
   .review1 {
     width: 100% !important;
+  }
+  .free2 h2{
+    font-size: 20px !important;
+  }
+  .free2 p{
+    font-size: 16px !important;
   }
 
   .footer-logo {
@@ -174,6 +218,10 @@
   .footer-menu ul li {
     display: none;
   }
+  .footer-top {
+    position: relative;
+  }
+
   .footer-top img {
     position: absolute;
     top: 50%;
@@ -183,5 +231,8 @@
   }
   .menu3 li a {
     font-size: 10px;
+  }
+  .menu3 {
+    clear: both;
   }
 }
