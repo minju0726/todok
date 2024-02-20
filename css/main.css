@@ -638,6 +638,9 @@ height: 500px; */
 }
 
 /* 로그인폼 */
+.login{
+  padding: 70px;
+}
 .login-wrapper {
   width: 400px;
   height: 350px;
@@ -686,4 +689,44 @@ height: 500px; */
   background-image: url("checkbox-active.png");
   background-repeat: no-repeat;
   background-size: contain;
+}
+/* 인기상품페이지 */
+.shopping {
+  width: 100%;
+  background-color: #eec1c1;
+  
+}
+.shop-wrap {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+  gap: 10px;
+  padding-bottom: 10%;
+}
+.shop {
+  width: calc(100% / 4 - 10px);
+  border: 1px solid #333;
+  padding: 10px;
+}
+.shop img {
+  width: 100%;
+}
+.shopping h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.shop h3 {
+  padding: 5%;
+  font-size: 1rem;
+}
+.shop span {
+  font-size: 0.9rem;
+}
+.shop p {
+  font-size: 0.9rem;
+  color: red;
 }

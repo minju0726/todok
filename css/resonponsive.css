@@ -236,3 +236,16 @@
     clear: both;
   }
 }
+/* 인기상품페이지 */
+@media screen and (max-width:768px) {
+  .shop{
+      width: calc(100% / 3 - 10px);
+  }
+  
+}
+@media screen and (max-width:320px) {
+  .shop{
+      width: calc(100% / 2 - 10px);
+  }
+  
+}
