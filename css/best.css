@@ -1,0 +1,49 @@
+/* 인기상품페이지 */
+.shopping {
+    width: 100%;
+    background-color: #eec1c1;
+    padding-top: 30px;
+  }
+  .shop-wrap {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: #fff; */
+    gap: 10px;
+  }
+  .shop {
+    width: calc(100% / 4 - 10px);
+    border: 1px solid #333;
+    padding: 10px;
+    background-color: #fff;
+  }
+  .shop img {
+    width: 100%;
+    background-size: cover;
+  }
+  .shopping h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  .shop h3 {
+    padding: 5%;
+    font-size: 1rem;
+  }
+  .shop span {
+    font-size: 0.9rem;
+  }
+  .shop p {
+    font-size: 0.9rem;
+    color: red;
+  }
+  .serch_text{
+    padding: 2% 0;
+    margin: 0 auto;
+  }
+  .serch_text input{
+    outline: none;
+  }
+  
