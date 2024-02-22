@@ -181,10 +181,10 @@
   .freebox button {
     width: 80% !important;
   }
-  .freebox button h1{
+  .freebox button h1 {
     font-size: 30px !important;
   }
-  #countdown{
+  #countdown {
     font-size: 25px !important;
   }
   .review {
@@ -204,10 +204,10 @@
   .review1 {
     width: 100% !important;
   }
-  .free2 h2{
+  .free2 h2 {
     font-size: 20px !important;
   }
-  .free2 p{
+  .free2 p {
     font-size: 16px !important;
   }
 
@@ -237,15 +237,13 @@
   }
 }
 /* 인기상품페이지 */
-@media screen and (max-width:768px) {
-  .shop{
-      width: calc(100% / 3 - 10px);
+@media screen and (max-width: 768px) {
+  .shop {
+    width: calc(100% / 3 - 10px);
   }
-  
 }
-@media screen and (max-width:320px) {
-  .shop{
-      width: calc(100% / 2 - 10px);
+@media screen and (max-width: 320px) {
+  .shop {
+    width: calc(100% / 2 - 10px);
   }
-  
 }
