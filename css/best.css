@@ -1,0 +1,71 @@
+@charset "utf-8";
+@import url(main.css);
+/* 인기상품페이지 */
+.shopping {
+    width: 100%;
+    background-color: #eec1c1;
+  }
+  .shop-wrap {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    gap: 10px;
+    padding: 3%;
+    margin-bottom: 50px;
+  }
+  .shop {
+    width: calc(100% / 4 - 10px);
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .shop img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .shopping h1 {
+    padding: 3%;
+    font-size: 50px;
+    text-align: center;
+  }
+  .shop h3 {
+  line-height: 1.3;
+    font-size: 1.5vw;
+ 
+  }
+  .shop span {
+    font-size: 0.8rem;
+    color: #777;
+  }
+  .shop p {
+    font-size: 1rem;
+    color: red;
+    line-height: 2;
+  }
+  
+  .serch-text {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .text{
+    border: 1px solid #999;
+    width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+outline: none;
+  }
+  
+  .serch-text span{
+    color: #999;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  

@@ -23,7 +23,6 @@
     font-size: 20px;
   }
 }
-
 @media screen and (max-width: 320px) {
   #logo {
     display: none;
@@ -66,7 +65,7 @@
 }
 @media screen and (max-width: 768px) {
   .header-logo #logo {
-    display: block;
+    display: none;
     font-size: 1.5rem;
   }
   .mb ul {
@@ -172,11 +171,11 @@
   }
   .distodok {
     flex-direction: column;
-    width: 100% !important;
+    width: 80% !important;
     align-items: center;
   }
   .discount {
-    width: 60% !important;
+    width: 80% !important;
   }
   .freebox button {
     width: 80% !important;
