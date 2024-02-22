@@ -557,12 +557,21 @@ footer address {
   background-color: #f7eb06;
   width: 200px;
   height: 100px;
-
   /* margin: -10px 10px 30px; */
   text-align: center;
   font-size: 20px;
   border-radius: 10px;
 }
+.kakao img {
+  width: 30%;
+  height: 30%;
+}
+.imgkakao{
+  width: 5px;
+  height: 5px;
+}
+
+
 .navertool {
   background-color: #b4b4b4;
   width: 200px;
@@ -575,12 +584,12 @@ footer address {
   background-color: #0cbb14;
   width: 200px;
   height: 100px;
-
   text-align: center;
   font-size: 20px;
   border-radius: 10px;
   color: #fff;
 }
+
 .modal-wrap {
   position: fixed;
   top: 0;
