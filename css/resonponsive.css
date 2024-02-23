@@ -23,23 +23,19 @@
     font-size: 20px;
   }
 }
-@media screen and (max-width: 320px) {
-  #logo {
-    display: none;
+@media screen and (max-width: 1380px){
+  .review1 h2{
+    font-size: 20px !important;
+   
   }
-  .logo {
-    display: none;
+  .respan{
+    font-size: 15px !important;
   }
-  .distodok {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-  }
-  .discount {
-    width: 130%;
+  .review1 p{
+    font-size: 14px !important;
+    line-height: 1.5;
   }
 }
-
 @media screen and (max-width: 1280px) {
   .mb ul {
     display: inline-block;
@@ -62,6 +58,67 @@
   .discount {
     width: 47% !important;
   }
+  .review1 h2{
+    font-size: 18px !important;
+   
+  }
+  .respan{
+    font-size: 13px !important;
+  }
+  .review1 p{
+    font-size: 13px !important;
+    line-height: 1.5;
+  }
+ 
+}
+@media screen and (max-width: 1110px){
+  .review1 h2{
+    font-size: 18px !important;
+   line-height: 1.6 !important;
+  }
+  .respan{
+    font-size: 13px !important;
+  }
+  .review1 p{
+    font-size: 13px !important;
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 969px){
+  .review1 h2{
+    font-size: 18px !important;
+   line-height: 1.3 !important;
+  }
+  .respan{
+    font-size: 13px !important;
+  }
+  .review1 p{
+    font-size: 13px !important;
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 900px){
+  .review{
+    width:60% !important;
+    /* height: 400px !important; */
+   height: 400% !important;
+    /* height: 100%; */
+ /* height: 27.55vw !important; */
+ 
+    flex-wrap: wrap;
+    gap: 10px !important;
+  }
+  .review1 {
+    width:100% !important;
+   padding: 20px 10px !important;
+   
+  }
+  .review1  li{
+    padding: 10px 0 !;
+  }
+.main{
+  height: auto !important;
+}
 }
 @media screen and (max-width: 768px) {
   .header-logo #logo {
@@ -88,41 +145,35 @@
   }
   .distodok {
     flex-direction: column;
-    width: 100%;
+    width: 80% !important;
     align-items: center;
   }
   .discount {
     width: 60% !important;
   }
-  .review {
-    flex-direction: column;
-    align-items: center;
+
+  .review.review1.review-img {
+    width: 100%;
+    height: 80%;
+    
   }
-  .review1 {
-    width: 70% !important;
-    margin-bottom: 30px !important;
+  .review.review1.review-img img {
+    width: 100%;
+    height: 100%;
   }
-  .review1 h2 {
-    font-size: 0.9rem !important;
-    line-height: 0;
+  
+  .footer-menu ul li {
+    display: none;
   }
-  .review p {
-    margin: none;
-    line-height: 0;
-    font-size: 1rem !important;
-    .footer-menu ul li {
-      display: none;
-    }
-    .footer-top {
-      position: relative;
-    }
-    .footer-top img {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 20%;
-      transform: translate(-50%, -50%);
-    }
+  .footer-top {
+    position: relative;
+  }
+  .footer-top img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
   }
   .footer-logo {
     justify-content: center;
@@ -142,17 +193,35 @@
     transform: translate(-50%, -50%);
   }
 }
+
 @media screen and (max-width: 320px) {
-  .header-logo .logo {
-    display: none;
+  .header {
+    display: flex;
+    justify-content: center;
+    height: 96px !important;
   }
-  .header-logo #logo {
-    display: block;
-    font-size: 2rem;
+  .header-logo {
+  }
+
+  #logo {
+    display: none !important;
+  }
+  .logo {
+    display: block !important;
+    width: 100% !important;
+    height: 80% !important;
+  }
+  .serch {
+    height: 230px !important;
+  }
+  .serch-bar {
+    padding-top: 50px !important;
+  }
+  .mb {
+    display: none !important;
   }
   .mb ul {
-    display: inline-block;
-    padding-left: 100% !important;
+    display: none !important;
   }
   .keyword {
     flex-wrap: wrap;
@@ -171,43 +240,34 @@
   }
   .distodok {
     flex-direction: column;
-    width: 80% !important;
+    width: 100% !important;
     align-items: center;
+    margin-bottom: 80px !important;
   }
   .discount {
     width: 80% !important;
   }
+  .freebox {
+    padding-top: 50px !important;
+  }
   .freebox button {
     width: 80% !important;
   }
-  .freebox button h1{
+  .freebox button h1 {
     font-size: 30px !important;
   }
-  #countdown{
-    font-size: 25px !important;
-  }
-  .review {
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  .review1 h2 {
-    font-size: 0.7rem !important;
-    line-height: 0;
-  }
-  .review p {
-    margin: none;
-    line-height: 0;
-    font-size: 1rem !important;
-  }
-  .review1 {
-    width: 100% !important;
-  }
-  .free2 h2{
+  #countdown {
     font-size: 20px !important;
   }
-  .free2 p{
+
+ 
+  .free2 h2 {
+    font-size: 20px !important;
+  }
+  .free2 p {
     font-size: 16px !important;
+    margin: 10px 0 50px !important;
+    color: #555;
   }
 
   .footer-logo {
@@ -236,15 +296,13 @@
   }
 }
 /* 인기상품페이지 */
-@media screen and (max-width:768px) {
-  .shop{
-      width: calc(100% / 3 - 10px);
+@media screen and (max-width: 768px) {
+  .shop {
+    width: calc(100% / 3 - 10px);
   }
-  
 }
-@media screen and (max-width:320px) {
-  .shop{
-      width: calc(100% / 2 - 10px);
+@media screen and (max-width: 320px) {
+  .shop {
+    width: calc(100% / 2 - 10px);
   }
-  
 }
