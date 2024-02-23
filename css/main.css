@@ -89,10 +89,17 @@ body {
   color: #000;
   /* background-color: #c96969; */
 }
+<<<<<<< HEAD
 .main {
   height: 100%;
   width: 100%;
   padding-bottom: 100px;
+=======
+.main{
+  height: 100%;
+  width: 100%;
+  background-color: #ef97d0;
+>>>>>>> e667c7d76385c8f78e0c89c2e624a7d500efe429
 }
 .mainmenu {
   display: flex;
@@ -433,13 +440,21 @@ body {
 .review {
   width: 60%;
   gap: 1%;
+<<<<<<< HEAD
   height: 100%;
   /* height: 50%; */
 
+=======
+  height: 50%;
+  background-color: #0cbb14;
+>>>>>>> e667c7d76385c8f78e0c89c2e624a7d500efe429
   justify-content: space-between;
   margin: 0 auto;
   display: flex;
+
+ 
 }
+<<<<<<< HEAD
 .review .review1 {
   width: calc(100% / 3 - 1%);
   height: 100%;
@@ -455,6 +470,23 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+=======
+.review1 {
+  width: calc(100% / 3);
+  height: 27.55vw;
+  /* min-height: 300px; */
+  background-color: #fce0ec;
+  padding: 2%;
+}
+.review1 .review-img {
+  width: 100%;
+  height: 80%;
+  background-color: #f7eb06;
+}
+.review1 .review-img img {
+  width: 100%;
+  height: 100%;
+>>>>>>> e667c7d76385c8f78e0c89c2e624a7d500efe429
 }
 .respan {
   color: #fd0505;
@@ -477,6 +509,7 @@ body {
 
 /* 푸터 */
 footer {
+  
   width: 100%;
   /* height: 200px; */
   margin: 0 auto;
